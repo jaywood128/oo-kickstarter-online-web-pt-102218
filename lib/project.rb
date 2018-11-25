@@ -11,7 +11,7 @@ class Project
     @backers << backers
     backers.back_project(self)
   end
-
+end
 
     binding.pry
   end
