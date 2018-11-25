@@ -14,7 +14,7 @@ class Backer
 
   attr_accessor :backed_projects
 
-  def initialze(name)
+  def initialze
     binding.pry
   end
 
