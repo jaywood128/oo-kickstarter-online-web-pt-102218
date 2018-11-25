@@ -1,7 +1,7 @@
 require 'pry'
 class Backer
 
-  attr_accessor :backed_projects, :name, :backers
+  attr_accessor :backed_projects, :name
 
   def initialize(name)
     @name = name
