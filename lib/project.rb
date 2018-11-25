@@ -9,9 +9,10 @@ class Project
 
   def add_backer(backers)
     backers << backers
+    binding.pry
     # if !backers.backed_projects.include?(self)
     #   projects.add_backer(self)
-    # backers.back_project(self) 
-    
+    # backers.back_project(self)
+
   end
 end
