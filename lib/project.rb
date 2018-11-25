@@ -7,8 +7,8 @@ class Project
     @backers = []
   end
 
-  def add_backer(backers)
-    backers << backers
+  def add_backer(backer)
+    backers << backer
     binding.pry
     # if !backers.backed_projects.include?(self)
     #   projects.add_backer(self)
