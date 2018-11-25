@@ -12,7 +12,3 @@ class Project
     backers.back_project(self)
   end
 end
-
-    binding.pry
-  end
-end
